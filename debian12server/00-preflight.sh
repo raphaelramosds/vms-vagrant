@@ -3,5 +3,5 @@
 set -e pipefail
 
 sudo apt update
-sudo apt upgrade -y
+
 sudo apt install -y apache2 dkms build-essential linux-headers-$(uname -r) -y   
