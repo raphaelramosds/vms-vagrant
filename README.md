@@ -1,7 +1,13 @@
 # Virtual Machine management with Vagrant
 
-## Plugins
+Run machine
 
 ```bash
-vagrant plugin install vagrant-vbguest
+vagrant up
+```
+
+Provision scripts
+
+```bash
+vagrant provision
 ```
