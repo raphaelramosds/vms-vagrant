@@ -11,6 +11,11 @@ EDIT PRESENTATION MESSAGE
 1. Generate with https://patorjk.com/software/taag
 2. Copy content and paste on a TXT file, then
 cat d12sascii.txt > /etc/motd
+3. Set PrintMotd false
+4. bash -c "cd /etc/pam.d && grep -i motd *" to hash out these two lines:
+
+session    optional     pam_motd.so  motd=/run/motd.dynamic
+session    optional     pam_motd.so noupdate
 
 EDIT PS1
 
