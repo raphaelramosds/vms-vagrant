@@ -24,3 +24,9 @@ The machine is accessible with the following credentials
 user: vagrant
 password: vagrant
 ```
+
+Stop Vagrant machine
+
+```bash 
+vagrant halt
+```
