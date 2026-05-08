@@ -1,0 +1,18 @@
+SSH 
+
+# Connect
+ssh vagrant@127.0.0.1 -p 2222
+
+# Copy file
+scp -P 2222 C:\Users\Raphael\Documents\Github\VMS\debian12server\d12sascii.txt vagrant@127.0.0.1:~
+
+EDIT PRESENTATION MESSAGE
+
+1. Generate with https://patorjk.com/software/taag
+2. Copy content and paste on a TXT file, then
+cat d12sascii.txt > /etc/motd
+
+EDIT PS1
+
+1. Use https://bash-prompt-generator.org/ to generate a cool prompt
+2. Edit PS1 variable on .bashrc
